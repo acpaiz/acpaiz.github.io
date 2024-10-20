@@ -538,3 +538,60 @@ img {
     width: 450px;
   }
 }
+
+/* Education Section */
+.education {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.education__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.education__content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.education__img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.education__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.education__description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.education__button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.education__button:hover {
+  background-color: var(--first-color);
+}
